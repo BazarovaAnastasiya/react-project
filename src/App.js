@@ -5,7 +5,7 @@ import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Header/>

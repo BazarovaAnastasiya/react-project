@@ -1,7 +1,9 @@
+/* eslint-disable react/jsx-no-undef */
 
 import './Header.css';
+import Personal from "../personal/Personal"
 
-function Header() {
+const Header = () =>{
   return (
     <div className="Header">
    <div className="Header-nav">
@@ -13,8 +15,10 @@ function Header() {
       <a href="http://">Москва,  ул. Науки  25</a>;
    <div className="User-nav">
       {/* <Favorites/> */}
-      <a className="Personal" href="http://">иконка</a>;
-      <a className="Basket" href="http://">корзина</a>;
+      <a className="Personal" href="#s">
+         <Personal/>
+         </a>;
+      <a className="Basket" href="#s">корзина</a>;
    </div>
     </div>
   );
