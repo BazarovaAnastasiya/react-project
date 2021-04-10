@@ -11,11 +11,11 @@ const Header = () =>{
     <div className="Header">
 
    <div className="Header-nav">
-      <div className="Header-navLink">
-         <a href="http://">Магазины</a>
-         <a href="http://">Акции</a>
-         <a href="http://">Доставка и оплата</a>
-      </div>
+      <ul className="Header-navLink">
+         <li href="http://">Магазины</li>
+         <li href="http://">Акции</li>
+         <li href="http://">Доставка и оплата</li>
+      </ul>
          <img className="Logo" src="#" alt="logo"/>
          <a href="http://">Москва,  ул. Науки  25</a>
       <div className="User-nav">
@@ -31,16 +31,16 @@ const Header = () =>{
       </div>
     </div>
 
-    <div className="mainMenu">
-       <a href="http://">Квадроциклы</a>
-       <a href="http://">Катера</a>
-       <a href="http://">Гидроциклы</a>
-       <a href="http://">Лодки</a>
-       <a href="http://">Вездеходы</a>
-       <a href="http://">Снегоходы</a>
-       <a href="http://">Двигатели</a>
-       <a href="http://">Двигатели</a>
-    </div>
+    <ul className="mainMenu">
+       <li href="http://">Квадроциклы</li>
+       <li href="http://">Катера</li>
+       <li href="http://">Гидроциклы</li>
+       <li href="http://">Лодки</li>
+       <li href="http://">Вездеходы</li>
+       <li href="http://">Снегоходы</li>
+       <li href="http://">Двигатели</li>
+       <li href="http://">Двигатели</li>
+    </ul>
     </div>
   );
 }
