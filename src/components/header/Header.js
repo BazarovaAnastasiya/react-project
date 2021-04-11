@@ -4,6 +4,7 @@ import './Header.css';
 import Personal from "../personal/Personal";
 import Favorits from "../favorits/Favorits";
 import Basket from "../basket/Basket";
+import Logo from "../logo/Logo"
 
 
 const Header = () =>{
@@ -16,7 +17,7 @@ const Header = () =>{
          <li href="http://">Акции</li>
          <li href="http://">Доставка и оплата</li>
       </ul>
-         <img className="Logo" src="#" alt="logo"/>
+        <Logo/>
          <a href="http://">Москва,  ул. Науки  25</a>
       <div className="User-nav">
          <a className="Favorits" href="#s"> 
