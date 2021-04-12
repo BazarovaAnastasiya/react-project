@@ -1,4 +1,4 @@
-import s from "./App.module.css";
+import s from "./App.module.scss";
 import Header from "./components/block/header/Header";
 import Footer from "./components/block/footer/Footer";
 import StartPage from "./components/pages/startPage/StartPage";

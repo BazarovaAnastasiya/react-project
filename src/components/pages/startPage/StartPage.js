@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-undef */
 
-import s from "./StartPage.module.css";
+import s from "./StartPage.module.scss";
 
 const StartPage = () => {
   return (

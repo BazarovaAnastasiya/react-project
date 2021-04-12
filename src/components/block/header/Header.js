@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-undef */
 
-import s from "./Header.module.css";
+import s from "./Header.module.scss";
 import Personal from "../../abstracts/personal/Personal";
 import Favorits from "../../abstracts/favorits/Favorits";
 import Basket from "../../abstracts/basket/Basket";
