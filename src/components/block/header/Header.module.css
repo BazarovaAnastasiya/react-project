@@ -3,7 +3,7 @@
   flex-direction: column;
 }
 
-.Header-nav {
+.HeaderNav {
   display: flex;
   justify-content: space-between;
 }

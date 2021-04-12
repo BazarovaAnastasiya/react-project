@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-undef */
 
-import "./Header.css";
+import s from "./Header.module.css";
 import Personal from "../../abstracts/personal/Personal";
 import Favorits from "../../abstracts/favorits/Favorits";
 import Basket from "../../abstracts/basket/Basket";
@@ -9,36 +9,36 @@ import Lockation from "../../../assets/images/Lockation.svg";
 
 const Header = () => {
   return (
-    <div className="Header">
-      <div className="Header-nav">
-        <ul className="Header-navLink">
+    <div className={s.Header}>
+      <div className={s.HeaderNav}>
+        <ul className={s.HeaderNavLink}>
           <li href="http://">Магазины</li>
           <li href="http://">Акции</li>
           <li href="http://">Доставка и оплата</li>
         </ul>
-        <div className="LogoWrapper">
+        <div className={s.LogoWrapper}>
           <Logo />
           DRIVE MOTO
         </div>
 
-        <a className="Adres" href="http://">
+        <a className={s.Adres} href="http://">
           <img src={Lockation} alt="Lockation" />
           Москва, ул. Науки 25
         </a>
-        <div className="User-nav">
-          <a className="Favorits" href="#s">
+        <div className={s.UserNav}>
+          <a className={s.Favorits} href="#s">
             <Favorits />
           </a>
-          <a className="Personal" href="#s">
+          <a className={s.Personal} href="#s">
             <Personal />
           </a>
-          <a className="Basket" href="#s">
+          <a className={s.Basket} href="#s">
             <Basket />
           </a>
         </div>
       </div>
 
-      <ul className="mainMenu">
+      <ul className={s.mainMenu}>
         <li href="http://">Квадроциклы</li>
         <li href="http://">Катера</li>
         <li href="http://">Гидроциклы</li>
