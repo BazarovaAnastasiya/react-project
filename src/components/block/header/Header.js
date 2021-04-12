@@ -1,10 +1,10 @@
 /* eslint-disable react/jsx-no-undef */
 
 import s from "./Header.module.scss";
-import Personal from "../../abstracts/personal/Personal";
-import Favorits from "../../abstracts/favorits/Favorits";
-import Basket from "../../abstracts/basket/Basket";
-import Logo from "../../abstracts/logo/Logo";
+import Personal from "../../common/personal/Personal";
+import Favorits from "../../common/favorits/Favorits";
+import Basket from "../../common/basket/Basket";
+import Logo from "../../common/logo/Logo";
 import Lockation from "../../../assets/images/Lockation.svg";
 
 const Header = () => {
