@@ -10,6 +10,8 @@ import "swiper/components/navigation/navigation.scss";
 import "swiper/components/pagination/pagination.scss";
 import "swiper/components/scrollbar/scrollbar.scss";
 
+import SlidesBanner from "../../../assets/images/slaider-banner.jpg";
+
 // install Swiper modules
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
@@ -21,16 +23,29 @@ const StartPage = () => {
           <div className={s.Slaider}>
             <Swiper
               spaceBetween={50}
-              slidesPerView={3}
+              slidesPerView={1}
               navigation
               pagination={{ clickable: true }}
               scrollbar={{ draggable: true }}
             >
-              <SwiperSlide>Slide 1</SwiperSlide>
-              <SwiperSlide>Slide 2</SwiperSlide>
-              <SwiperSlide>Slide 3</SwiperSlide>
-              <SwiperSlide>Slide 4</SwiperSlide>
-              ...
+              <SwiperSlide>
+                <img src={SlidesBanner} alt="" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={SlidesBanner} alt="" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={SlidesBanner} alt="" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={SlidesBanner} alt="" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={SlidesBanner} alt="" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={SlidesBanner} alt="" />
+              </SwiperSlide>
             </Swiper>
           </div>
           <div>карточка</div>
