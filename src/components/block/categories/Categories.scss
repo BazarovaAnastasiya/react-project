@@ -6,4 +6,15 @@
   border: 1px solid #cdcdcd;
   box-sizing: border-box;
   border-radius: 3px;
+  position: relative;
+}
+
+.CategoriesIMg {
+  width: 130.21px;
+  height: 100px;
+
+  position: absolute;
+  right: 0;
+  top: 0;
+  object-fit: contain;
 }
