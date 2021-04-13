@@ -1,0 +1,17 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 265px;
+  height: 397px;
+  border: 1px solid #cdcdcd;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.CardHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.CardImg {
+  object-fit: cover;
+}

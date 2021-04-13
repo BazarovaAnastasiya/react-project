@@ -2,13 +2,14 @@
   max-width: 870px;
   margin-right: 36px;
 }
-
-.swiper-button-prev:after,
-.swiper-button-next:after {
+.main .swiper-container .swiper-button-prev {
+  color: #fff;
+}
+.main .swiper-container .swiper-button-next {
   color: #fff;
 }
 
-.swiper-pagination-bullet {
+.main .swiper-container .swiper-pagination .swiper-pagination-bullet {
   width: 11px;
   height: 11px;
   display: inline-block;
@@ -18,7 +19,7 @@
   border: 1px solid #ffffff;
 }
 
-.swiper-pagination-bullet-active {
+.main .swiper-container .swiper-pagination .swiper-pagination-bullet-active {
   opacity: 1;
   background: #fff;
 }

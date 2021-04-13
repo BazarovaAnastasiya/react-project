@@ -9,4 +9,50 @@
 
 .SearchPage {
   display: block;
+  position: relative;
+}
+.СhoiceWrapper {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+.Сhoice {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #2f3035;
+}
+.Search {
+  width: 100%;
+  height: 50px;
+
+  /* базовый */
+
+  background: #f0f0f4;
+  border-radius: 3px;
+}
+.SearchBtn {
+  width: 145px;
+  height: 54px;
+
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  background: #1c62cd;
+  border-radius: 3px;
+
+  position: absolute;
+  bottom: 0;
+  right: -7px;
 }
