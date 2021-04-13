@@ -4,9 +4,9 @@
 
 .Promotions {
   display: flex;
+  flex-wrap: wrap;
 }
 
-.Slaider {
-  width: 870px;
-  height: 400px;
+.SearchPage {
+  display: block;
 }

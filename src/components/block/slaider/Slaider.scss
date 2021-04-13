@@ -1,0 +1,24 @@
+.main {
+  max-width: 870px;
+  margin-right: 36px;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  color: #fff;
+}
+
+.swiper-pagination-bullet {
+  width: 11px;
+  height: 11px;
+  display: inline-block;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0);
+  opacity: 1;
+  border: 1px solid #ffffff;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #fff;
+}

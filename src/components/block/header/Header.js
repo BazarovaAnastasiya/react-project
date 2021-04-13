@@ -12,16 +12,28 @@ const Header = () => {
     <div className={s.Header}>
       <div className={s.HeaderNav}>
         <ul className={s.HeaderNavLink}>
-          <li href="http://">Магазины</li>
-          <li href="http://">Акции</li>
-          <li href="http://">Доставка и оплата</li>
+          <li>
+            <a className={s.HeaderLink} href="//#region ">
+              Магазины
+            </a>
+          </li>
+          <li>
+            <a className={s.HeaderLink} href="//#region ">
+              Акции
+            </a>
+          </li>
+          <li>
+            <a className={s.HeaderLink} href="//#region ">
+              Доставка и оплата
+            </a>
+          </li>
         </ul>
         <div className={s.LogoWrapper}>
           <Logo />
-          DRIVE MOTO
+          <span className={s.LogoText}>DRIVE MOTO</span>
         </div>
 
-        <a className={s.Adres} href="http://">
+        <a className={s.HeaderLink} href="http://">
           <img src={Lockation} alt="Lockation" />
           Москва, ул. Науки 25
         </a>
@@ -39,14 +51,46 @@ const Header = () => {
       </div>
 
       <ul className={s.mainMenu}>
-        <li href="http://">Квадроциклы</li>
-        <li href="http://">Катера</li>
-        <li href="http://">Гидроциклы</li>
-        <li href="http://">Лодки</li>
-        <li href="http://">Вездеходы</li>
-        <li href="http://">Снегоходы</li>
-        <li href="http://">Двигатели</li>
-        <li href="http://">Двигатели</li>
+        <li>
+          <a className={s.mainMenuLink} href="http://">
+            Квадроциклы
+          </a>
+        </li>
+        <li>
+          <a className={s.mainMenuLink} href="http://">
+            Катера
+          </a>
+        </li>
+        <li>
+          <a className={s.mainMenuLink} href="http://">
+            Гидроциклы
+          </a>
+        </li>
+        <li>
+          <a className={s.mainMenuLink} href="http://">
+            Лодки
+          </a>
+        </li>
+        <li>
+          <a className={s.mainMenuLink} href="http://">
+            Вездеходы
+          </a>
+        </li>
+        <li>
+          <a className={s.mainMenuLink} href="http://">
+            Снегоходы
+          </a>
+        </li>
+        <li>
+          <a className={s.mainMenuLink} href="http://">
+            Двигатели
+          </a>
+        </li>
+        <li>
+          <a className={s.mainMenuLink} href="http://">
+            Запчасти
+          </a>
+        </li>
       </ul>
     </div>
   );
