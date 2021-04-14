@@ -16,8 +16,8 @@ import ImgCard6 from "../../../assets/images/C6.png";
 const StartPage = () => {
   return (
     <>
-      <div className={s.StartPage}>
-        <div className={s.Promotions}>
+      <div className={s.startPage}>
+        <div className={s.promotions}>
           <Slaider />
           <ProducttCard
             text="акция"
@@ -26,29 +26,29 @@ const StartPage = () => {
           />
         </div>
 
-        <div className={s.SearchPage}>
-          <ul className={s.СhoiceWrapper}>
-            <li className={s.Сhoice}>
+        <div className={s.searchPage}>
+          <ul className={s.choiceWrapper}>
+            <li className={s.choice}>
               <button>Поиск по номеру</button>
             </li>
-            <li className={s.Сhoice}>
+            <li className={s.choice}>
               <button>Поиск по марке</button>
             </li>
-            <li className={s.Сhoice}>
+            <li className={s.choice}>
               <button>Поиск по названию товара</button>
             </li>
           </ul>
           <form action="">
             <input
-              className={s.Search}
+              className={s.search}
               type="text"
               placeholder="Введите марку "
             />
-            <button className={s.SearchBtn}>искать</button>
+            <button className={s.searchBtn}>искать</button>
           </form>
         </div>
 
-        <div className={s.Categories}>
+        <div className={s.categories}>
           <Categories title="Квадроциклы" src={ImgCard1} />
           <Categories title="Гидроциклы" src={ImgCard2} />
           <Categories title="Катера" src={ImgCard3} />
@@ -56,6 +56,8 @@ const StartPage = () => {
           <Categories title="Вездеходы" src={ImgCard5} />
           <Categories title="Двигатели" src={ImgCard6} />
         </div>
+
+        <div className={s.productsBlock}></div>
       </div>
     </>
   );

@@ -2,7 +2,7 @@ import "./Logo.scss";
 
 const Logo = () => {
   return (
-    <div className="Logo">
+    <div className="logo">
       <svg
         width="80"
         height="76"

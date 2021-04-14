@@ -1,9 +1,11 @@
-.Header {
+@import "../../../scss/abstracts/_variables.scss";
+
+.header {
   display: flex;
   flex-direction: column;
 }
 
-.HeaderNav {
+.headerNav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,12 +17,12 @@
   display: flex;
   justify-content: space-between;
 }
-.HeaderNavLink {
+.headerNavLink {
   display: flex;
   list-style-type: none;
 }
 
-.HeaderLink {
+.headerLink {
   font-family: SF Pro Display;
   font-style: normal;
   font-weight: bold;
@@ -29,15 +31,15 @@
 
   text-decoration: none;
 
-  color: #2f3035;
+  color: $primaryTextColor;
 }
-.LogoWrapper {
+.logoWrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.LogoText {
+.logoText {
   font-family: Staatliches;
   font-style: normal;
   font-weight: normal;
@@ -49,29 +51,28 @@
 
   /* Основной текст */
 
-  color: #2f3035;
+  color: $primaryTextColor;
 }
 
-.UserNav {
+.userNav {
   display: flex;
 }
 
 .mainMenu {
   display: flex;
   justify-content: space-between;
-  background: #f0f0f4;
+  background: $basiccClor;
   padding: 15px 0;
   list-style-type: none;
+}
+.mainMenuLink {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
 
-  .mainMenuLink {
-    font-family: SF Pro Display;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-    text-transform: capitalize;
-
-    text-decoration: none;
-    color: #2f3035;
-  }
+  text-decoration: none;
+  color: $primaryTextColor;
 }

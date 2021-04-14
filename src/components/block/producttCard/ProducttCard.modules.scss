@@ -1,4 +1,4 @@
-.Card {
+.card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -8,10 +8,10 @@
   box-sizing: border-box;
   border-radius: 3px;
 }
-.CardHeader {
+.cardHeader {
   display: flex;
   justify-content: space-between;
 }
-.CardImg {
+.cardImg {
   object-fit: cover;
 }

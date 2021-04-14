@@ -1,42 +1,44 @@
-.StartPage {
+@import "../../../scss/abstracts/_variables.scss";
+
+.startPage {
   margin: 0 auto;
 }
 
-.Promotions {
+.promotions {
   display: flex;
   flex-wrap: wrap;
 }
 
-.SearchPage {
+.searchPage {
   display: block;
   position: relative;
 
   margin-bottom: 80px;
 }
-.СhoiceWrapper {
+.choiceWrapper {
   list-style-type: none;
   display: flex;
   padding: 0;
 }
-.Сhoice {
+.choice {
   font-family: SF Pro Display;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 24px;
 
-  color: #2f3035;
+  color: $primaryTextColor;
 }
-.Search {
+.search {
   width: 100%;
   height: 50px;
 
   /* базовый */
 
-  background: #f0f0f4;
+  background: $basiccClor;
   border-radius: 3px;
 }
-.SearchBtn {
+.searchBtn {
   width: 145px;
   height: 54px;
 
@@ -45,13 +47,12 @@
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
-  /* identical to box height */
 
   letter-spacing: 0.12em;
   text-transform: uppercase;
 
-  color: #ffffff;
-  background: #1c62cd;
+  color: $primaryColor;
+  background: $accentColor;
   border-radius: 3px;
 
   position: absolute;
@@ -59,7 +60,7 @@
   right: -7px;
 }
 
-.Categories {
+.categories {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 1em;

@@ -1,50 +1,52 @@
 /* eslint-disable react/jsx-no-undef */
 
 import s from "./Header.module.scss";
+
 import Personal from "../../common/personal/Personal";
 import Favorits from "../../common/favorits/Favorits";
 import Basket from "../../common/basket/Basket";
 import Logo from "../../common/logo/Logo";
+
 import Lockation from "../../../assets/images/Lockation.svg";
 
 const Header = () => {
   return (
-    <div className={s.Header}>
-      <div className={s.HeaderNav}>
-        <ul className={s.HeaderNavLink}>
+    <div className={s.header}>
+      <div className={s.headerNav}>
+        <ul className={s.headerNavLink}>
           <li>
-            <a className={s.HeaderLink} href="//#region ">
+            <a className={s.headerLink} href="//#region ">
               Магазины
             </a>
           </li>
           <li>
-            <a className={s.HeaderLink} href="//#region ">
+            <a className={s.headerLink} href="//#region ">
               Акции
             </a>
           </li>
           <li>
-            <a className={s.HeaderLink} href="//#region ">
+            <a className={s.headerLink} href="//#region ">
               Доставка и оплата
             </a>
           </li>
         </ul>
-        <div className={s.LogoWrapper}>
+        <div className={s.logoWrapper}>
           <Logo />
-          <span className={s.LogoText}>DRIVE MOTO</span>
+          <span className={s.logoText}>DRIVE MOTO</span>
         </div>
 
-        <a className={s.HeaderLink} href="http://">
+        <a className={s.headerLink} href="http://">
           <img src={Lockation} alt="Lockation" />
           Москва, ул. Науки 25
         </a>
-        <div className={s.UserNav}>
-          <a className={s.Favorits} href="#s">
+        <div className={s.userNav}>
+          <a className={s.favorits} href="#s">
             <Favorits />
           </a>
-          <a className={s.Personal} href="#s">
+          <a className={s.personal} href="#s">
             <Personal />
           </a>
-          <a className={s.Basket} href="#s">
+          <a className={s.basket} href="#s">
             <Basket />
           </a>
         </div>
