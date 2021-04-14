@@ -1,7 +1,7 @@
 import s from "./StartPage.module.scss";
 
 import Slaider from "./../../block/slaider/Slaider";
-import ProducttCard from "../../block/producttCard/ProducttCard";
+import ProducttCard from "../../block/productCard/productCard";
 import Categories from "../../block/categories/Categories";
 
 import ProdImg from "../../../assets/images/product.png";

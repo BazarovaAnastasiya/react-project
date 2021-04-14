@@ -1,7 +1,7 @@
 import Favorits from "../../common/favorits/Favorits";
-import s from "./ProducttCard.modules.scss";
+import s from "./productCard.module.scss";
 
-const ProducttCard = (props) => {
+const ProductCard = (props) => {
   return (
     <div className={s.card}>
       <div className={s.cardHeader}>
@@ -21,4 +21,4 @@ const ProducttCard = (props) => {
   );
 };
 
-export default ProducttCard;
+export default ProductCard;

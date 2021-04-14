@@ -1,10 +1,10 @@
-import "./Categories.scss";
+import s from "./Categories.module.scss";
 
 const Categories = (props) => {
   return (
-    <div className="wrapper">
+    <div className={s.wrapper}>
       <h2>{props.title}</h2>
-      <img className="categoriesIMg" src={props.src} alt="" />
+      <img className={s.categoriesIMg} src={props.src} alt="" />
       <button>подробнее</button>
     </div>
   );

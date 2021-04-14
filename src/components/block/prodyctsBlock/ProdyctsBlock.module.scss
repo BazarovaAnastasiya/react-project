@@ -1,0 +1,17 @@
+@import "../../../scss/abstracts/_variables";
+.prodyctsTitle {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  /* identical to box height */
+
+  /* Основной текст */
+
+  color: $primaryTextColor;
+}
+
+.prodyctsUl {
+  list-style-type: none;
+}
