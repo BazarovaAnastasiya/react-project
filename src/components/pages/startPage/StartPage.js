@@ -13,6 +13,8 @@ import ImgCard4 from "../../../assets/images/C4.png";
 import ImgCard5 from "../../../assets/images/C5.png";
 import ImgCard6 from "../../../assets/images/C6.png";
 
+import ProdyctsBlock from "../../block/prodyctsBlock/ProdyctsBlock";
+
 const StartPage = () => {
   return (
     <>
@@ -57,7 +59,9 @@ const StartPage = () => {
           <Categories title="Двигатели" src={ImgCard6} />
         </div>
 
-        <div className={s.productsBlock}></div>
+        <div className={s.productsBlock}>
+          <ProdyctsBlock />
+        </div>
       </div>
     </>
   );

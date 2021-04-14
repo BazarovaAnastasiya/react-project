@@ -1,4 +1,4 @@
-import s from "./ProdyctsBlock.modul.scss";
+import s from "./ProdyctsBlock.module.scss";
 
 import ProductsSlaider from "../productsSlaider/ProductsSlaider";
 

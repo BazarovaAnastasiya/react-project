@@ -7,7 +7,7 @@ import "swiper/swiper.scss";
 import "swiper/components/navigation/navigation.scss";
 import "swiper/components/pagination/pagination.scss";
 
-import SlidesBanner from "../../../assets/images/slaider-banner.jpg";
+import SlaiderBanner from "../../../assets/images/slaider-banner.jpg";
 import "./Slaider.scss";
 
 // install Swiper modules
@@ -23,22 +23,22 @@ const Slaider = () => {
         pagination={{ clickable: true }}
       >
         <SwiperSlide>
-          <img src={SlidesBanner} alt="" />
+          <img src={SlaiderBanner} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={SlidesBanner} alt="" />
+          <img src={SlaiderBanner} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={SlidesBanner} alt="" />
+          <img src={SlaiderBanner} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={SlidesBanner} alt="" />
+          <img src={SlaiderBanner} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={SlidesBanner} alt="" />
+          <img src={SlaiderBanner} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={SlidesBanner} alt="" />
+          <img src={SlaiderBanner} alt="" />
         </SwiperSlide>
       </Swiper>
     </div>
