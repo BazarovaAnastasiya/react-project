@@ -60,7 +60,7 @@ const StartPage = () => {
         </div>
 
         <div className={s.productsBlock}>
-          <ProdyctsBlock />
+          <ProdyctsBlock title="Популярные товары" />
         </div>
       </div>
     </>

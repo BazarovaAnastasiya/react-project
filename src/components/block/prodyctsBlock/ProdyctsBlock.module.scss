@@ -1,4 +1,9 @@
 @import "../../../scss/abstracts/_variables";
+.wrapper {
+  max-width: 1170px;
+  display: flex;
+  flex-direction: column;
+}
 .prodyctsTitle {
   font-family: Barlow;
   font-style: normal;

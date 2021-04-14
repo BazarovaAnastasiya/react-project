@@ -4,7 +4,7 @@ import ProductsSlaider from "../productsSlaider/ProductsSlaider";
 
 const ProdyctsBlock = (props) => {
   return (
-    <div className="wrapper">
+    <div className={s.wrapper}>
       <h2 className={s.prodyctsTitle}>{props.title}</h2>
       <ul className={s.prodyctsUl}>
         <li className={s.prodyctsLi}>

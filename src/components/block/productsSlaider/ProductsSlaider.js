@@ -1,44 +1,64 @@
-import "./ProductsSlaide.moduler.scss";
+import s from "./ProductsSlaide.moduler.scss";
 import ProductCard from "../../block/productCard/productCard";
 
-import SwiperCore, { Navigation, Pagination } from "swiper";
+import ProImg from "../../../assets/images/C2.png";
+
+import SwiperCore, { Navigation } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/swiper.scss";
 import "swiper/components/navigation/navigation.scss";
-import "swiper/components/pagination/pagination.scss";
 
 // install Swiper modules
-SwiperCore.use([Navigation, Pagination]);
+SwiperCore.use([Navigation]);
 
 const ProductsSlaider = () => {
   return (
-    <div className="main">
-      <Swiper
-        spaceBetween={50}
-        slidesPerView={3}
-        navigation
-        pagination={{ clickable: true }}
-      >
+    <div className={s.slaiderConteiner}>
+      <Swiper spaceBetween={5} slidesPerView={4} navigation>
         <SwiperSlide>
-          <ProductCard />
+          <ProductCard
+            text="акция"
+            src={ProImg}
+            description="Лодочный мотор Suzuki DF9.9BRS"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <ProductCard />
+          <ProductCard
+            text="акция"
+            src={ProImg}
+            description="Лодочный мотор Suzuki DF9.9BRS"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <ProductCard />
+          <ProductCard
+            text="акция"
+            src={ProImg}
+            description="Лодочный мотор Suzuki DF9.9BRS"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <ProductCard />
+          <ProductCard
+            text="акция"
+            src={ProImg}
+            description="Лодочный мотор Suzuki DF9.9BRS"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <ProductCard />
+          <ProductCard
+            text="акция"
+            src={ProImg}
+            description="Лодочный мотор Suzuki DF9.9BRS"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <ProductCard />
+          <ProductCard
+            text="акция"
+            src={ProImg}
+            description="Лодочный мотор Suzuki DF9.9BRS"
+          />
         </SwiperSlide>
       </Swiper>
     </div>
