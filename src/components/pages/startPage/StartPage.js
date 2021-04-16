@@ -1,6 +1,6 @@
 import s from "./StartPage.module.scss";
 
-import Slaider from "./../../block/slaider/Slaider";
+import Slaider from "./slaider/Slaider";
 import ProducttCard from "../../block/productCard/productCard";
 import Categories from "../../block/categories/Categories";
 
@@ -13,7 +13,8 @@ import ImgCard4 from "../../../assets/images/C4.png";
 import ImgCard5 from "../../../assets/images/C5.png";
 import ImgCard6 from "../../../assets/images/C6.png";
 
-import ProdyctsBlock from "../../block/prodyctsBlock/ProdyctsBlock";
+import ProdyctsBlock from "../../block/productsBlock/ProductsBlock";
+import ProductsBlockBtn from "../../block/productsBlock/productsBlockBtn/ProductsBlockBtn";
 
 const StartPage = () => {
   return (
@@ -31,16 +32,16 @@ const StartPage = () => {
         <div className={s.searchPage}>
           <ul className={s.choiceWrapper}>
             <li className={s.choice}>
-              <button>Поиск по номеру</button>
+              <ProductsBlockBtn text="Поиск по номеру" />
             </li>
             <li className={s.choice}>
-              <button>Поиск по марке</button>
+              <ProductsBlockBtn text="Поиск по марке" />
             </li>
             <li className={s.choice}>
-              <button>Поиск по названию товара</button>
+              <ProductsBlockBtn text="Поиск по названию товара" />
             </li>
           </ul>
-          <form action="">
+          <form className={s.searchForm} action="">
             <input
               className={s.search}
               type="text"

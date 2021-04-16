@@ -7,7 +7,7 @@ import "swiper/swiper.scss";
 import "swiper/components/navigation/navigation.scss";
 import "swiper/components/pagination/pagination.scss";
 
-import SlaiderBanner from "../../../assets/images/slaider-banner.jpg";
+import SlaiderBanner from "../../../../assets/images/slaider-banner.jpg";
 import "./Slaider.scss";
 
 // install Swiper modules

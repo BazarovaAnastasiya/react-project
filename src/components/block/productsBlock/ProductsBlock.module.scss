@@ -1,0 +1,19 @@
+@import "../../../scss/abstracts/_variables";
+.wrapper {
+  max-width: 1170px;
+  display: flex;
+  flex-direction: column;
+
+  .productsTitle {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+
+    /* Основной текст */
+
+    color: $primaryTextColor;
+  }
+}

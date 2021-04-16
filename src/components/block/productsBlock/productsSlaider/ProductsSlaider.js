@@ -1,7 +1,7 @@
 import s from "./ProductsSlaide.moduler.scss";
-import ProductCard from "../../block/productCard/productCard";
+import ProductCard from "../../productCard/productCard";
 
-import ProImg from "../../../assets/images/C2.png";
+import ProImg from "../../../../assets/images/product.png";
 
 import SwiperCore, { Navigation } from "swiper";
 

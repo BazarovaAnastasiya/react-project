@@ -1,0 +1,12 @@
+@import "../../../../scss/abstracts/variables";
+
+.productsUl {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  .productsLi {
+    .productsLink {
+      text-transform: none;
+    }
+  }
+}
